@@ -198,7 +198,7 @@ def get_user_info(client, headers):
     """获取用户信息"""
     try:
         response = client.get(
-            "https://anyrouter.top/api/user/self",
+            "https://anyrouter.top/api/data/self",
             headers=headers,
             timeout=30
         )
